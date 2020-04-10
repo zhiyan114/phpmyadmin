@@ -53,3 +53,8 @@ Please see the documentation in the doc folder or at https://docs.phpmyadmin.net
 
 For support or to learn how to contribute code or by translating to your language,
 visit https://www.phpmyadmin.net/
+
+
+Modification
+------------
+This Version of phpmyadmin has replaced google recaptcha system to hcaptcha
