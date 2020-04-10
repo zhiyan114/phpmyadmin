@@ -57,6 +57,6 @@ visit https://www.phpmyadmin.net/
 
 Modification
 ------------
-This Version of phpmyadmin has replaced google recaptcha system to hcaptcha
+This Version of phpmyadmin has replaced google recaptcha system to hcaptcha. Using phpmyadmin version 5.0.2
 
 Very Important: After running composer command, u will go to ``./phpmyadmin/vendor/google/recaptcha/src/ReCaptcha/ReCaptcha.php`` and set the ``SITE_VERIFY_URL`` value to ``https://hcaptcha.com/siteverify`` so it should looks like ``const SITE_VERIFY_URL = 'https://hcaptcha.com/siteverify';``. Not changing the URL will result hcaptca being verify on google's recaptcha server which will fail.
